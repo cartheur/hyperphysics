@@ -1,34 +1,0 @@
-<HTML>
-<!-- Mirrored from hyperphysics.phy-astr.gsu.edu/hbase/oscda.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 27 Dec 2011 04:54:43 GMT -->
-<HEAD>   <TITLE>Damped Harmonic Oscillator</TITLE></HEAD><body bgcolor="#FFE4C8"><!-- Copyright 1998 by Carl Rod Nave, RodNave@gsu.edu--><A Name="c1"></A><TABLE WIDTH="680" HEIGHT="370" BORDER="1" CELLSPACING="2" CELLPADDING="2"><TR><TD WIDTH="604" HEIGHT="309"><H1 align=center>Damped Harmonic Oscillator</H1><table><tr><td><img src ="images/oscda.gif"><BR>
-
-<center><table BORDER="1"><tr><td><a href="#c2">Damping coefficient</a></td></tr></table></center>
-
-<center><table BORDER="1"><tr><td><a href="shm.html#c1">Undamped oscillator</a></td></tr></table></center>
-
-<center><table BORDER="1"><tr><td><a href="oscdr.html#c1">Driven oscillator</a></td></tr></table></center>
-
-
-</td><td><p>The <a href="newt.html#nt2cn">Newton's 2nd Law</a>  motion equation is
-<center><img src ="images/oscda2b.gif"></center>
-<p>This is in the form of a <a href="diff2.html#c1">homogeneous</a> second order <a href="de.html#deh">differential equation</a> and has a solution of the form
-<center><img src ="images/oscda3b.gif"></center>
-<p>Substituting this form gives an auxiliary equation for &#955;
-<center><img src ="images/oscda4b.gif"></center>
-The roots of the quadratic auxiliary equation are
-<center><img src ="images/oscda2.gif"></center>
-<p>The three resulting cases for the damped oscillator are
-<img src="images/oscda3.gif"usemap="#acon"><map name="acon"><area shape=rect coords="0,0,330,40" href= "oscda2.html#c2" >
-<area shape=rect coords="0,41,330,80" href= "oscda2.html#c1" >
-<area shape=rect coords="0,81,330,115" href= "#c3" ></map>
-
-
-<!--
-overdamp  0,0,330,40
-critical  0,41,330,80
-underdamped 0,81,330,115
--->
-</td></tr></table></TD><TD WIDTH="66" align=center><a href="hframe.html">Index</a><BR><BR><a href="permot.html#permot">Periodic motion concepts</a></TD></TR><TR><TD HEIGHT="17">&nbsp;<table><tr><td width= "450"><A HREF="hph.html"> HyperPhysics</A>*****<A HREF="hph.html#mechcon">     Mechanics </A></td><td align=right><font size="-1"><i>R Nave</i></font></td></tr></table></TD><TD><a href="Javascript:history.go(-1)">Go Back</a></TD></TR></TABLE><BR><BR><BR><BR><BR><A Name="c2"></A><TABLE WIDTH="680" HEIGHT="370" BORDER="1" CELLSPACING="2" CELLPADDING="2"><TR><TD WIDTH="604" HEIGHT="309"><H1 align=center>Damping Coefficient</H1><p> When a <a href="#c1">damped oscillator</a> is subject to a damping force which is linearly dependent upon the velocity, such as viscous damping, the oscillation will have exponential decay terms which depend upon a damping coefficient. If the damping force is of the form <BR><center><img src="images/oscda6.gif"></center><p>then the damping coefficient is given by<BR><center><img src="images/oscda7.gif"></center><p>This will seem logical when you note that the damping force is proportional to c, but its influence inversely proportional to the mass of the oscillator.</TD><TD WIDTH="66" align=center><a href="hframe.html">Index</a><BR><BR><a href="permot.html#permot">Periodic motion concepts</a></TD></TR><TR><TD HEIGHT="17">&nbsp;<table><tr><td width= "450"><A HREF="hph.html"> HyperPhysics</A>*****<A HREF="hph.html#mechcon">     Mechanics </A></td><td align=right><font size="-1"><i>R Nave</i></font></td></tr></table></TD><TD><a href="Javascript:history.go(-1)">Go Back</a></TD></TR></TABLE><BR><BR><BR><BR><BR><A Name="c3"></A><TABLE WIDTH="680" HEIGHT="370" BORDER="1" CELLSPACING="2" CELLPADDING="2"><TR><TD WIDTH="604" HEIGHT="309"><H1 align=center>Underdamped Oscillator</H1><center><img src="images/oscda8.gif"></center>
-<p>For any value of the <a href="#c2">damping coefficient</a> &#947; less than the <a href="oscda2.html#c1">critical damping</a> factor the mass will overshoot the zero point and oscillate about x=0. The behavior is shown for one-half and one-tenth of the critical damping factor. Also shown is an example of the <a href="oscda2.html#c2">overdamped</a> case with twice the critical damping factor. <center><table BORDER="1" CELLSPACING="2" CELLPADDING="2"><tr><td><a href="#c1">Damped Oscillator</a></td><td><a href="#c4">Further details for underdamped case</a></td></tr></table></center></TD><TD WIDTH="66" align=center><a href="hframe.html">Index</a><BR><BR><a href="permot.html#permot">Periodic motion concepts</a><br><br>Reference<br><br><a href="mecref.html#c1">Barger & Olsson</a></TD></TR><TR><TD HEIGHT="17">&nbsp;<table><tr><td width= "450"><A HREF="hph.html"> HyperPhysics</A>*****<A HREF="hph.html#mechcon">     Mechanics </A></td><td align=right><font size="-1"><i>R Nave</i></font></td></tr></table></TD><TD><a href="Javascript:history.go(-1)">Go Back</a></TD></TR></TABLE><BR><BR><BR><BR><BR><A Name="c4"></A><TABLE WIDTH="680" HEIGHT="370" BORDER="1" CELLSPACING="2" CELLPADDING="0"><TR><TD WIDTH="604" HEIGHT="309"><H1 align=center>Underdamped Oscillator</H1>When a <a href="#c1">damped oscillator</a> is <a href="#c3">underdamped</a>, it approaches zero faster than in the case of <a href="oscda2.html#c1">critical damping</a>, but oscillates about that zero.<table><tr><td> <img src="images/oscda9.gif"><BR></td><td><p>The equation is that of an exponentially decaying sinusoid. <center><img src="images/oscda10.gif"></center><p>The <a href="#c2">damping coefficient</a> is less than the <a href="shm2.html#c2">undamped resonant frequency</a> . The sinusoid frequency is given by<BR><center><img src="images/oscda11.gif"></center><p>but the motion is not strictly periodic. </td></tr></table></TD><TD WIDTH="66" align=center><a href="hframe.html">Index</a><BR><BR><a href="permot.html#permot">Periodic motion concepts</a></TD></TR><TR><TD HEIGHT="17">&nbsp;<table><tr><td width= "450"><A HREF="hph.html"> HyperPhysics</A>*****<A HREF="hph.html#mechcon">     Mechanics </A></td><td align=right><font size="-1"><i>R Nave</i></font></td></tr></table></TD><TD><a href="Javascript:history.go(-1)">Go Back</a></TD></TR></TABLE><BR><BR><BR><BR><BR></BODY>
-<!-- Mirrored from hyperphysics.phy-astr.gsu.edu/hbase/oscda.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 27 Dec 2011 04:54:46 GMT -->
-</HTML>
