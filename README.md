@@ -4,7 +4,9 @@ The details of hyperphysics as a reference to circuital computation.
 
 ### Background
 
-An invaluable reference of physics, the site goes offline and most-times permanently. Here is the archive.
+An invaluable reference of physics, the site goes offline and most-times permanently. Here is the organization you can see when loading it
+
+![image](/images/main.png)
 
 ### How to use this repo.
 
