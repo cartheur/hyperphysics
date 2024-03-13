@@ -6,4 +6,4 @@ The details of hyperphysics as a reference to circuital computation.
 
 An invaluable reference of physics, the site goes offline and most-times permanently. Here is the archive.
 
-Begin [here](main/hframe.html).
+Begin [here](/hyperphysics.lnk).
